@@ -49,6 +49,7 @@ nav{
   z-index:2;
 }
 .brand{font-weight:900; letter-spacing:-.03em}
+.brandlogo{font-weight:900; letter-spacing:-.03em; width: 45%; height: auto;transform: rotate(-30deg); z-index: 100;}
 .navlinks{display:flex; gap:8px; flex-wrap:wrap}
 .navlinks a{color:var(--ink); text-decoration:none; padding:9px 13px; border-radius:999px; font-size:.9rem; font-weight:700}
 .navlinks a:hover{background:white}
