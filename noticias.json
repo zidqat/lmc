@@ -9,12 +9,18 @@
     "fecha": "2026-08-12",
     "titulo": "Buscando el lugar ideal",
     "categoria": "Alojamiento",
-    "contenido": "Estamos revisando alternativas entre Matanzas y Algarrobo para encontrar una opción cómoda, entretenida y cercana a la playa."
+    "contenido": "Estamos revisando alternativas entre Matanzas, Tabo, Quisco y Algarrobo para encontrar una opción cómoda, entretenida y cercana a la playa."
   },
   {
     "fecha": "2026-08-01",
     "titulo": "Revisión de cuotas",
     "categoria": "Finanzas",
     "contenido": "Se actualizará periódicamente el estado de las cuotas para que todos podamos conocer el avance del fondo del paseo."
+  },
+  {
+    "fecha": "2026-08-17",
+    "titulo": "Primera cotización de Hospedaje",
+    "categoria": "Finanzas",
+    "contenido": "El dato de la profesora Loreto 'Cabañas BordeMar' Pagina: <a href='https://www.instagram.com/cabanas_bordemar?igsh=NzVvbHF4czZlamdq'>Instagram Cabañas BordeMar</a> "
   }
 ]
