@@ -1,0 +1,44 @@
+[
+  {
+    "hito": "Confirmación del paseo",
+    "descripcion": "Definir oficialmente fechas, zona del litoral y formato general de la actividad de graduación.",
+    "fecha": "2026-08-20",
+    "estado": "completado",
+    "pendiente": "Sin pendientes."
+  },
+  {
+    "hito": "Reserva del alojamiento",
+    "descripcion": "Seleccionar y reservar alojamiento para el grupo entre el 11 y 13 de diciembre.",
+    "fecha": "2026-09-05",
+    "estado": "en_progreso",
+    "pendiente": "Comparar alternativas, validar capacidad total y realizar abono de reserva."
+  },
+  {
+    "hito": "Confirmación final de asistentes",
+    "descripcion": "Cerrar la nómina definitiva de estudiantes y acompañantes.",
+    "fecha": "2026-10-15",
+    "estado": "pendiente",
+    "pendiente": "Confirmar asistencia, restricciones alimentarias y contactos de emergencia."
+  },
+  {
+    "hito": "Pago final del alojamiento",
+    "descripcion": "Completar el pago requerido por el recinto seleccionado.",
+    "fecha": "2026-11-10",
+    "estado": "pendiente",
+    "pendiente": "Revisar saldo de cuotas y completar diferencias pendientes."
+  },
+  {
+    "hito": "Plan de actividades y comidas",
+    "descripcion": "Definir actividades, distribución de habitaciones, alimentación y compras.",
+    "fecha": "2026-11-25",
+    "estado": "pendiente",
+    "pendiente": "Asignar responsables y confirmar menú final."
+  },
+  {
+    "hito": "¡Nos vamos!",
+    "descripcion": "Inicio del paseo de graduación y fin de semana en la playa.",
+    "fecha": "2026-12-11",
+    "estado": "pendiente",
+    "pendiente": "Revisar checklist final, transporte y horarios de salida."
+  }
+]

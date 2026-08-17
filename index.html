@@ -1,5 +1,89 @@
-<html>
-  <body>
-    test
-  </body>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#9ee8ff">
+  <title>Paseo de Graduación 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <nav>
+    <div class="brand">🌴 GENERACIÓN 2026</div>
+    <div class="navlinks">
+      <a href="#hitos">Hitos</a><a href="#pagos">Cuotas</a><a href="#noticias">Noticias</a>
+    </div>
+  </nav>
+
+  <div class="hero-grid">
+    <div>
+      <span class="kicker">🎓 Actividad final de graduación</span>
+      <h1>Última parada:<span>la playa.</span></h1>
+      <p class="lead">Todo lo que necesitamos para llegar al paseo de fin de año organizados, con las cuotas al día y las ganas de pasarlo increíble.</p>
+      <div class="date-card">
+        <strong>11–13</strong><span>Diciembre<br><small>2026 · litoral central</small></span>
+      </div>
+      <p style="margin-top:20px;font-weight:900">⏳ Faltan <span id="countdown">...</span></p>
+    </div>
+    <div class="illustration" aria-label="Ilustración alegre de verano y playa">
+      <div class="sun"></div><div class="cloud"></div>
+      <div class="palm"><div class="trunk"></div><div class="leaf"></div><div class="leaf"></div><div class="leaf"></div><div class="leaf"></div><div class="leaf"></div></div>
+      <div class="people">
+        <div class="person"><div class="head"></div><div class="body"></div><div class="leg a"></div><div class="leg b"></div></div>
+        <div class="person"><div class="head"></div><div class="body"></div><div class="leg a"></div><div class="leg b"></div></div>
+        <div class="person"><div class="head"></div><div class="body"></div><div class="leg a"></div><div class="leg b"></div></div>
+      </div>
+      <div class="wave w1"></div><div class="wave w2"></div>
+      <div class="sticker s1">☀️ verano mode ON</div><div class="sticker s2">🌊 2 noches</div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section" id="hitos">
+    <div class="section-head">
+      <div><span class="eyebrow">Camino al paseo</span><h2>Nuestra línea de tiempo</h2></div>
+      <p>Los hitos se leen directamente desde <strong>hitos.json</strong>. Cambia fechas, estados o pendientes y la interfaz se actualiza sola.</p>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <section class="section" id="pagos">
+    <div class="section-head">
+      <div><span class="eyebrow">Fondo del paseo</span><h2>Asistentes & cuotas</h2></div>
+      <p>Cuota base 2025: <strong>$50.000</strong>. De marzo a diciembre 2026: <strong>$5.000 mensuales</strong>.</p>
+    </div>
+    <div class="summary-grid">
+      <div class="metric glass"><small>Asistentes</small><b id="m-asistentes">—</b></div>
+      <div class="metric glass"><small>Recaudado</small><b id="m-recaudado">—</b></div>
+      <div class="metric glass"><small>Meta total</small><b id="m-meta">—</b></div>
+      <div class="metric glass"><small>Avance</small><b id="m-avance">—</b></div>
+    </div>
+    <div class="table-wrap glass">
+      <table>
+        <thead><tr>
+          <th>Asistente</th><th>2025</th>
+          <th>Mar</th><th>Abr</th><th>May</th><th>Jun</th><th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
+          <th>Total</th><th>Avance</th>
+        </tr></thead>
+        <tbody id="payments-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" id="noticias">
+    <div class="section-head">
+      <div><span class="eyebrow">Tablón del curso</span><h2>Últimas noticias</h2></div>
+      <p>Las publicaciones se leen desde <strong>noticias.json</strong> y se ordenan automáticamente desde la más reciente a la más antigua.</p>
+    </div>
+    <div class="news-grid" id="news"></div>
+  </section>
+</main>
+<footer>Hecho con ☀️, 🌊 y demasiadas ganas de diciembre · Generación 2026</footer>
+<script src="app.js"></script>
+</body>
 </html>

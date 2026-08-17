@@ -1,0 +1,20 @@
+[
+  {
+    "fecha": "2026-08-17",
+    "titulo": "¡Comenzamos la organización!",
+    "categoria": "Organización",
+    "contenido": "Ya está en marcha la planificación del paseo de graduación 2026. La fecha oficial será del 11 al 13 de diciembre."
+  },
+  {
+    "fecha": "2026-08-12",
+    "titulo": "Buscando el lugar ideal",
+    "categoria": "Alojamiento",
+    "contenido": "Estamos revisando alternativas entre Matanzas y Algarrobo para encontrar una opción cómoda, entretenida y cercana a la playa."
+  },
+  {
+    "fecha": "2026-08-01",
+    "titulo": "Revisión de cuotas",
+    "categoria": "Finanzas",
+    "contenido": "Se actualizará periódicamente el estado de las cuotas para que todos podamos conocer el avance del fondo del paseo."
+  }
+]
