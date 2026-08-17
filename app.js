@@ -30,7 +30,7 @@ function renderTimeline(items){
     <article class="timeline-item ${x.estado==='completado'?'completed':x.estado==='en_progreso'?'progress':''}">
       <div class="t-date">${fechaBonita(x.fecha)}</div>
       <div class="t-track"><span class="t-dot"></span></div>
-      <div class="t-card glass">
+      <div class="t-card glass ${x.estado==='en_progreso'?'progress':''}">
         <div>
           <h3>${x.hito}</h3>
           <p>${x.descripcion}</p>

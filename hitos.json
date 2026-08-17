@@ -1,38 +1,31 @@
 [
-  {
-    "hito": "Confirmación del paseo",
-    "descripcion": "Definir oficialmente fechas, zona del litoral y formato general de la actividad de graduación.",
-    "fecha": "2026-08-20",
+   {
+    "hito": "Encuesta final de Confirmación de asistentes",
+    "descripcion": "Cerrar la nómina definitiva de estudiantes que participaran de la actividad.",
+    "fecha": "2026-07-26",
     "estado": "completado",
-    "pendiente": "Sin pendientes."
+    "pendiente": "Se realizo la encuesta y determino la lista de alumnos que participara."
   },
   {
-    "hito": "Reserva del alojamiento",
-    "descripcion": "Seleccionar y reservar alojamiento para el grupo entre el 11 y 13 de diciembre.",
-    "fecha": "2026-09-05",
+    "hito": "Cotizaciones",
+    "descripcion": "Establecer el lugar donde realizaremos la actividad en el litoral central",
+    "fecha": "2026-08-17",
     "estado": "en_progreso",
-    "pendiente": "Comparar alternativas, validar capacidad total y realizar abono de reserva."
+    "pendiente": "Datos de alojamiento. Actualmente contamos con la información de estos lugares: <br/><br/>Cabañas BordeMar (50.000 por Noche 5 pers.) <br/>Pagina: <a href='https://www.instagram.com/cabanas_bordemar?igsh=NzVvbHF4czZlamdq'>Cabañas BorderMar</a>"
   },
   {
-    "hito": "Confirmación final de asistentes",
-    "descripcion": "Cerrar la nómina definitiva de estudiantes y acompañantes.",
-    "fecha": "2026-10-15",
+    "hito": "Pago de Reserva del alojamiento",
+    "descripcion": "Seleccionar y reservar alojamiento para el grupo entre el 11 y 13 de diciembre.",
+    "fecha": "2026-08-30",
     "estado": "pendiente",
-    "pendiente": "Confirmar asistencia, restricciones alimentarias y contactos de emergencia."
+    "pendiente": "Comparar alternativas, validar capacidad total y realizar abono de reserva."
   },
   {
     "hito": "Pago final del alojamiento",
     "descripcion": "Completar el pago requerido por el recinto seleccionado.",
-    "fecha": "2026-11-10",
+    "fecha": "2026-12-11",
     "estado": "pendiente",
-    "pendiente": "Revisar saldo de cuotas y completar diferencias pendientes."
-  },
-  {
-    "hito": "Plan de actividades y comidas",
-    "descripcion": "Definir actividades, distribución de habitaciones, alimentación y compras.",
-    "fecha": "2026-11-25",
-    "estado": "pendiente",
-    "pendiente": "Asignar responsables y confirmar menú final."
+    "pendiente": "Completar la diferencia a cancelar por el Hospedaje."
   },
   {
     "hito": "¡Nos vamos!",
